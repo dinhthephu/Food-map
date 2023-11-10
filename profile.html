@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Map</title>
+
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href=".fonts/stylesheet.css" />
+
+    <!-- custom css file link  -->
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <link rel="stylesheet" href="/css/profile.css" />
+
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="/index-user.html" class="logo"><i class="fas fa-utensils"></i>VietNam Food Map</a>
+
+    <nav class="navbar">
+        <!-- <a class="active" href="#home">Trang chủ</a> -->
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+    </div>
+
+</header>
+
+<div class="container" style="margin-top: 100px;">
+
+    <div class="middle">
+    <div class="left">
+        <div class="thongtin">
+            <div class="profile">
+                <img src="images/icon/Ellipse 3.svg" alt="">
+                <div class="name">
+                    <p>Dương Phúc Quốc</p>
+                    <p>Đăng ký: Ngày 17 10 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <ul class="manage-account">
+                <h1>Quản lý tài khoản</h1>
+                <li class="personal">
+                    <span class="user">
+                        <img src="images/icon/Profile.svg" style="width: 14.34px; height: 18.406px;" alt="">
+                    </span>
+                    <span class="personal-info">Thông tin cá nhân</span>                
+                </li>
+
+                <li class="address" style="margin-left: 3px">
+                    <span class="add" style="width: 24px;">
+                        <img src="images/icon/Location.svg" style="margin-right: 70px" alt="">
+                    </span>
+                    <span class="ress" style="margin-left: 3px;">Địa chỉ</span>
+                </li>
+
+                <li class="address" style="margin-left: 3px">
+                    <span class="add" style="width: 24px;">
+                        <img src="images/icon/Location.svg" style="margin-right: 70px" alt="">
+                    </span>
+                    <span class="ress" style="margin-left: 3px;">Đánh giá</span>
+                </li>
+            </ul>
+
+            <ul class="myitems">
+                <h1>My items</h1>
+                <li class="reorder" style="margin-left: 3px">
+                    <span class="re">
+                        <img src="images/icon/Downlaod.svg" style="width: 18.5px; height: 17px;" alt="">
+                    </span>
+
+                    <span class="order">Reoder</span>
+                </li>
+
+                <li class="lists" style="margin-left: 3px">
+                    <span class="li">
+                        <img src="images/icon/heart.svg" style="width: 19px; height: 18px;" alt="">
+                    </span>
+
+                    <span class="sts">Yêu thích</span>
+                </li>
+
+               <li class="registries" style="margin-left: 3px">
+                    <span class="regis" style="width: 24px; height: 24px">
+                        <img src="images/icon/gift.svg" style="width: 18px; height: 18px;" alt="">
+                    </span>
+                    <span class="tries">Đăng ký</span>
+               </li>
+            </ul>
+
+            <ul class="customer-service">
+                <h1 style="width: 250px;">Khách hàng & dịch vụ</h1>
+                <li class="help" style="margin-left: 3px">
+                    <span class="he">
+                        <img src="images/icon/Info Square.svg" style="width: 18,5px; height: 18.5px;" alt="">
+                    </span>
+                    <span class="lp">Trợ giúp</span>
+                </li>
+
+                <li class="termsof-use" style="margin-left: 3px; width: 200px">
+                    <span class="terms">
+                        <img src="images/icon/Danger Circle.svg" style="width: 18,5px; height: 18.5px" alt="">
+                    </span>
+                    <span class="ofuse">Điều khoản sử dụng</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div class="right">
+            <div class="addcredit">
+                <div class="main1">
+                    <div class="main2">
+                    <div class="title">
+                        <div class="arrow-left">
+                            <img src="/images/icon/arrow-left.svg" alt="">
+                        </div>
+                        <h1 class="debit">Thông tin cá nhân</h1>
+                    </div>
+    
+                    <div class="input-data">
+                        <div class="inputdata1">
+                            <div class="input-data1">
+                                <div class="first-name">
+                                    <h1 style="font-size: 18px; line-height: 26px;">Họ và tên</h1>
+                                    <input type="text" placeholder="Họ và tên" style="border-radius: 10px; border: 1px solid var(--secondary-color-secondary-3, #D2D1D6);width: 437px; height: 50px;">
+                                </div>
+                            </div>
+    
+                            <div class="input-data1">
+                                <div class="first-name">
+                                    <h1 style="font-size: 18px; line-height: 26px;">Số điện thoại</h1>
+                                    <input type="text" placeholder="0001110000" style="border-radius: 10px; border: 1px solid var(--secondary-color-secondary-3, #D2D1D6);width: 437px; height: 50px;">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="inputdata2">
+                            <div class="input-data2">
+                                <div class="last-name">
+                                    <h1 style="font-size: 18px; line-height: 26px;">Địa chỉ email</h1>
+                                    <input type="text" placeholder="phenikaa@uni.edu.vn" style="border-radius: 10px; border: 1px solid var(--secondary-color-secondary-3, #D2D1D6);width: 437px; height: 50px;">
+                                </div>
+                            </div>
+    
+                            <div class="input-data2">
+                                <div class="last-name">
+                                    <h1 style="font-size: 18px; line-height: 26px;">Mật khẩu</h1>
+                                    <input type="text" placeholder="........" style="border-radius: 10px; border: 1px solid var(--secondary-color-secondary-3, #D2D1D6);width: 437px; height: 50px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="frame23">
+                        <h1>Trở về</h1>
+                        <button class="save-card">
+                            Lưu
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="links">
+                    <h2>Liên kết tài khoản</h2>
+                    <div class="face">
+                        <div class="facebook">
+                            <img src="/images/social.png" alt="" style="width: 100px; height: 100px;">
+                            <p>dlwlrma6</p>
+                        </div>
+                        <p style="margin-left: 600px; margin-top: 50px;">Huỷ liên kết</p>
+                    </div>
+
+                    <div class="face" style="margin-top: 10px;">
+                        <div class="facebook">
+                            <img src="/images/facebook.png" alt="" style="width: 100px; height: 80px;">
+                            <p style="margin-top: 10px;">dlwlrma6</p>
+                        </div>
+                        <p style="margin-left: 600px; margin-top: 50px;">Huỷ liên kết</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Địa điểm</h3>
+            <a href="#">Hà Nội</a>
+            <a href="#">Thành phố Hồ Chí Minh</a>
+            <a href="#">Hội An</a>
+            <a href="#">Đà Nẵng</a>
+            <a href="#">Sóc Trăng</a>
+        </div>
+
+        <div class="box">
+            <h3>Đường dẫn nhanh</h3>
+            <a href="#">Trang chủ</a>
+            <a href="#">Các nhà hàng nổi tiếng</a>
+            <a href="#">Khám phá bản đồ</a>
+            <a href="#">Món ăn phổ biến</a>
+            <a href="#">Đánh giá</a>
+            <a href="#">Bảng thông tin</a>
+        </div>
+
+        <div class="box">
+            <h3>Thông tin liên lạc</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">phenikaa@gmail.com</a>
+            <a href="#">foodmap@gmail.com</a>
+            <a href="#">Hà Đông, Hà Nội</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/script.js"></script>
+
+</body>
+</html>

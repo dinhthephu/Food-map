@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Map</title>
+
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>VietNam Food Map</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Trang chủ</a>
+        <a href="#dishes">Nhà hàng</a>
+        <a href="#about">Bản đồ ẩm thực</a>
+        <a href="#menu">Món ăn</a>
+        <a href="#review">Review</a>
+        <a href="#order">Bảng thông tin</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <form id="search-form" class="search-form">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button type="submit" id="search-submit">Search</button>
+            <i class="fas fa-times" id="close"></i>
+          </form>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="/profile.html" class="fas fa-user"></a>
+        <a href="/index.html" class="fas fa-sign-out-alt"></a>
+        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn nổi tiếng ở Việt Nam</span>
+                    <h3>Nem chua</h3>
+                    <p>Nem chua là một món ăn truyền thống của Việt Nam được làm từ thịt lên men và ướp muối.</p>
+                    <a href="#" class="btn">Xem ngay</a>
+                </div>
+                <div class="image">
+                    <img src="/images/nem chua.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn nổi tiếng ở Việt Nam</span>
+                    <h3>Bún mắm</h3>
+                    <p>Bún mắm là món ăn truyền thống của Việt Nam có nguồn gốc từ tỉnh Sóc Trăng.</p>
+                    <a href="#" class="btn">Xem ngay</a>
+                </div>
+                <div class="image">
+                    <img src="images/bunmama.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn nổi tiếng ở Việt Nam</span>
+                    <h3>Bánh trôi</h3>
+                    <p>Bánh trôi là tên một món tráng miệng truyền thống của Việt Nam bao gồm những viên gạo nếp nhỏ thơm ngon được bọc quanh nhân ngọt.</p>
+                    <a href="#" class="btn">Xem ngay</a>
+                </div>
+                <div class="image">
+                    <img src="images/banhtroi.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="swiper-pagination"></div> -->
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <!-- <h3 class="sub-heading"> our dishes </h3> -->
+    <h1 class="heading"> Nhà hàng nổi tiếng </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="nhahang" loading="lazy" src="images/nhahangchaoban.jpg">
+            <h3>Nhà hàng Chào bạn</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="feed-common--region-info" style="">
+                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 20px; height: 20px;">
+                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="font-size: 20px;">Hà Nội</a></span>
+            </div>
+            <a href="#" class="btn">Nổi tiếng về chả giò, bánh chuối, Cá kho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img class="nhahang" loading="lazy" src="images/phochao.jpg">
+            <h3>Phở chào</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="feed-common--region-info" style="margin-left: 20px;">
+                <img class="flag" loading="lazy" src="images/location.png" style="width: 20px; height: 20px;">
+                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="font-size: 20px;">Hội An</a></span>
+            </div>
+
+            <a href="#" class="btn">Nổi tiếng về phở bò, phở gà</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/hùm.jpg" alt="">
+            <h3>Nhà hàng Hum </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="feed-common--region-info" style="margin-left: 5px;">
+                <img class="flag" loading="lazy" src="images/location.png" style="width: 20px; height: 20px;">
+                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="font-size: 18px;">Thành phố Hồ Chí Minh</a></span>
+            </div>
+
+            <a href="#" class="btn">Nổi tiếng về chả giò, Gỏi đu đủ</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/phogiatruyen.jpg" alt="">
+            <h3>Phở Bát Đàn</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="feed-common--region-info" style="margin-left: 25px;">
+                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 20px; height: 20px;">
+                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="font-size: 20px;">Hà Nội</a></span>
+            </div>
+
+            <a href="#" class="btn">Nổi tiếng về phở bò, quẩy.</a>
+        </div>
+
+        <!-- <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div> -->
+
+        <!-- <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <!-- <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1> -->
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Khám phá ẩm thực, Địa điểm ăn uống</h3>
+
+            <div class="bottom">
+                <div class="input-container">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                    <input type="text" style="width: 593px; height: 49px; background-color: #9E9E9E; border-radius: 5px; font-size: 20px; padding-left: 20px;" placeholder="Nhập địa chỉ">
+                </div>
+
+                <div class="findfood">
+                    <input type="text" style="width: 199px; height: 49px; border-radius: 8px; background-color: #F65900; text-align: center; font-size: 20px; " placeholder="Tìm">
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="find-near-me-feeling-lucky">
+                    <a href="near">Gần tôi</a>
+                    <span style="margin: 0 15px; border-left: 1px solid #d8d8d8;"></span>
+                    <a href="/feeling-lucky">Gợi ý</a>
+                </div>
+                <a class="explore-map" href="/search">EXPLORE MAP</a>
+            </div>
+        
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Miễn phí vận chuyển</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Phương thức thanh toán</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Hỗ trợ</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Tìm hiểu thêm</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Famous VietNam dishes </h3>
+    <h1 class="heading"> Món ăn phổ biến </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+               <a href="./blog-post.html"> <img src="images/banhmi.jpg" alt=""></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>
+                    <a href="./blog-post.html">Bánh mì</a>
+                </h3>
+                <p>Bánh mì (phát âm là 'bun mee') là một loại bánh mì phổ biến của Việt Nam có cùng thành phần cốt lõi - bánh mì baguette. Bánh mì baguette được du nhập vào Việt Nam từ thời thuộc địa và ngày nay nó là một trong số ít những di sản hạnh phúc thời bấy giờ.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a> -->
+                <div class="feed-common--region-info">
+                    <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Hà Nội</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Bánh Mì Phượng(Hội An)</a>
+                <div class="tailieu" style="margin-top: 30px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="images/conbo.png">
+                    <img class="flag" loading="lazy" src="images/ot.png">
+                    <img class="flag" loading="lazy" src="images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/banhxeo.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bánh xèo</h3>
+                <p>Được dịch một cách lỏng lẻo là bánh xèo, bánh xèo là một món ăn nổi tiếng của Việt Nam kết hợp bánh crêpe giòn với nhiều nguyên liệu thơm ngon..</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 53px;">
+                    <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Hà Nội</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Quán Bánh Xèo 46A (Thành phố Hồ Chí Minh) </a>
+                <div class="tailieu" style="">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="images/cachua.png">
+                    <img class="flag" loading="lazy" src="images/dau (2).png">
+                    <img class="flag" loading="lazy" src="images/ot1.png">
+                    <img class="flag" loading="lazy" src="images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/bunbohue.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bún bò Huế</h3>
+                <p>Bún bò Huế là món súp chủ yếu của người Việt được dùng vào bữa sáng theo truyền thống.</p>
+                <i class="fa-solid fa-location-dot"></i>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 100px;">
+                    <img class="flag1" loading="lazy" src="images/location.png" style="width:20px; height: 20px;">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Huế</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Quán Cam (Huế) </a>
+                <div class="tailieu" style="margin-top: 30px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="images/toi.png">
+                    <img class="flag" loading="lazy" src="images/tom.png">
+                    <img class="flag" loading="lazy" src="images/ot1.png">
+                    <img class="flag" loading="lazy" src="images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/buncha.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bún chả</h3>
+                <p>Bún chả là món bún và thịt lợn có mối liên hệ mật thiết với Hà Nội, nơi được cho là có nguồn gốc từ đó.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 100px;">
+                    <img class="flag" loading="lazy" src="/images/6b5bf1ce7c584080ac72a310fe52a267.png">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Hà Nội</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Bún chả 34 (Hà Nội) </a>
+                <div class="tailieu" style="">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/gung.png">
+                    <img class="flag" loading="lazy" src="/images/dua.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/chagio.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chả giò</h3>
+                <p>Được gọi là chả giò ở miền Nam và nem rán ở miền Bắc Việt Nam, cả hai tên đều được dùng để chỉ cùng một món ăn - chả giò chiên.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 25px;">
+                    <img class="flag1" loading="lazy" src="/images/location.png" style="width:20px; height: 20px;">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Thành phố Hồ Chí Minh</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Quận 94 (Thành phố Hồ Chí Minh) </a>
+                <div class="tailieu" style="margin-top: 65px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="/images/conbo.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/che.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chè</h3>
+                <p>Các món chè Việt Nam bao gồm bất kỳ món chè truyền thống nào được làm bằng nước hoặc kem dừa và dùng nóng hoặc lạnh.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 25px;">
+                    <img class="flag1" loading="lazy" src="/images/location.png" style="width:20px; height: 20px;">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Thành phố Hồ Chí Minh</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Bè che (Thành phố Hồ Chí Minh) </a>
+                <div class="tailieu" style="margin-top: 65px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="/images/dau.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/banhbeo.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bánh bèo</h3>
+                <p>Bánh bèo là một loại bánh hấp phổ biến của Việt Nam bao gồm các nguyên liệu chính như bột gạo, nước mắm với ớt xanh và tôm hoặc thịt lợn.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" >
+                    <img class="flag1" loading="lazy" src="/images/location.png" style="width:20px; height: 20px;">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Huế</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Hàng me mẹ (Huế) </a>
+                <div class="tailieu" style="margin-top: 55px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/conluon.png">
+                    <img class="flag" loading="lazy" src="/images/conbo.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/bokho.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bò kho</h3>
+                <p>Bò kho là món bò hầm phổ biến của Việt Nam, có thể ăn riêng hoặc ăn kèm với bánh mì baguette.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 51px;">
+                    <img class="flag1" loading="lazy" src="/images/location.png" style="width:20px; height: 20px;">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Thành phố Hồ Chí Minh</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Phở huỳnh (Thành phố Hồ Chí Minh) </a>
+                <div class="tailieu" style="">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="/images/conca.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/phoha.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Phở gà</h3>
+                <p>Phở gà là món phở truyền thống của Việt Nam được làm từ thịt gà. Nó thường có thể được gọi là bình thường (bình thường) với thịt ức trắng, thịt sẫm màu, mỡ và da, hoặc gà nạc (gà nạc) với thịt ức thái lát.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="tailieu" style="margin-top: 85px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="/images/cachua.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/phobo.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Phở bò</h3>
+                <p>Phiên bản phở bò này được chế biến với các loại thịt bò cắt miếng và các phần khác nhau.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                
+                <div class="tailieu" style="margin-top: 140px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/ot1.png">
+                    <img class="flag" loading="lazy" src="/images/tom.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/canhchua.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Canh chua</h3>
+                <p>Canh chua là món canh phổ biến của người Việt có nguồn gốc từ vùng đồng bằng sông Cửu Long.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info" style="margin-top: 50px;">
+                    <img class="flag" loading="lazy" src="/images/6b5bf1ce7c584080ac72a310fe52a267.png">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Hà Nội</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Bún chả 34 (Hà Nội) </a>
+                <div class="tailieu" style="">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div>
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/banhmi.png">
+                    <img class="flag" loading="lazy" src="/images/conbo.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/bunrieu.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bún riêu</h3>
+                <p>Bún riêu là món bún làm từ cua của Việt Nam. Món ăn này có nhiều phiên bản nhưng phổ biến nhất là món được làm từ cà chua và có tên là bún riêu cua.</p>
+                <!-- <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                <span class="price">$12.99</span> -->
+
+                <div class="feed-common--region-info">
+                    <img class="flag" loading="lazy" src="/images/6b5bf1ce7c584080ac72a310fe52a267.png">
+                    <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi">Hà Nội</a></span>
+                </div>
+                <span><a class="js-ga-heading1" data-tag="dish_of_the_day" href="most">Nơi mang tính biểu tượng: Bún riêu (Hà Nội) </a>
+                <div class="tailieu" style="margin-top: 35px;">
+                    <span><a class="over" href="">Tổng quan</a></span>
+                    <span><a class="over" href="" style="margin-left: 10px;">Địa điểm ăn</a></span>
+                </div> 
+
+                <div class="nguyenlieu">
+                    <a href="#">
+                    <img class="flag" loading="lazy" src="/images/conga.png">
+                    <img class="flag" loading="lazy" src="/images/conbo.png">
+                    <img class="flag" loading="lazy" src="/images/ot.png">
+                    <img class="flag" loading="lazy" src="/images/hanh.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> Khám phá của du khách </h3>
+    <h1 class="heading"> Bình luận </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>Trịnh Anh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Đinh Thế Phú</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>Triệu Hải Lâm</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>Dương Phúc Quốc</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <!-- <h3 class="sub-heading"> Bảng thông tin </h3> -->
+    <h1 class="heading"> Bảng thông tin </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Họ và tên</span>
+                <input type="text" placeholder="Nhập họ và tên">
+            </div>
+            <div class="input">
+                <span>Số điện thoại</span>
+                <input type="number" placeholder="Nhập số điện thoại">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Tên món ăn</span>
+                <input type="text" placeholder="Nhập tên món ăn">
+            </div>
+            <div class="input">
+                <span>Các nguyên liệu</span>
+                <input type="test" placeholder="Các nguyên liệu đi kèm">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Khoảng mức tiền đồ ăn</span>
+                <input type="number" placeholder="VNĐ">
+            </div>
+            <div class="input">
+                <span>ngày tháng và thời js-ga-heading</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Địa chỉ nhà hàng</span>
+                <textarea name="" placeholder="Nhập địa chỉ" id="" cols="10" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Lưu ý</span>
+                <textarea name="" placeholder="Lưu ý" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Địa điểm</h3>
+            <a href="#">Hà Nội</a>
+            <a href="#">Thành phố Hồ Chí Minh</a>
+            <a href="#">Hội An</a>
+            <a href="#">Đà Nẵng</a>
+            <a href="#">Sóc Trăng</a>
+        </div>
+
+        <div class="box">
+            <h3>Đường dẫn nhanh</h3>
+            <a href="#">Trang chủ</a>
+            <a href="#">Các nhà hàng nổi tiếng</a>
+            <a href="#">Khám phá bản đồ</a>
+            <a href="#">Món ăn phổ biến</a>
+            <a href="#">Đánh giá</a>
+            <a href="#">Bảng thông tin</a>
+        </div>
+
+        <div class="box">
+            <h3>Thông tin liên lạc</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">phenikaa@gmail.com</a>
+            <a href="#">foodmap@gmail.com</a>
+            <a href="#">Hà Đông, Hà Nội</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<!-- <div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/script.js"></script>
+
+</body>
+</html>
