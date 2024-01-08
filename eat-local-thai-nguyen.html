@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Map</title>
+    <link rel = "stylesheet" href = "css/style.css">
+
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/eat-local-thai-nguyen.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+
+    <a href="/index-user.html" class="logo"><i class="fas fa-utensils"></i>VietNam Food Map</a>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-user"></a>
+        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+    </div>
+
+</header>
+<body>
+    <div class="container2" style="margin-top: 30px;">
+        <div class="hero-container">
+            <div class="imageData">
+                <img src="images/thainguyen.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="hero-container_title">
+            <h1>Thái Nguyên</h1>
+            <h2 style="color: white;">Việt Nam</h2>
+        </div>
+    </div>
+
+    <div class="search-result">
+        <div class="search-results_container">
+            <div class="search-results__container">
+                <h2 style="font-size: 30px; font-weight: 700px; text-transform: none!important;">Ăn những gì ở Thái Nguyên ?</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class = "wrapper">
+        <div class = "category-filter">
+            <div class = "container">
+                <div class = "filter-btns">
+                    <button type = "button" class = "filter-btn" id = "all">Tất cả</button>
+                    <button type = "button" class = "filter-btn" id = "new">Đồ ăn</button>
+                    <button type = "button" class = "filter-btn" id = "best-sellers">Top rate</button>
+                    <button type = "button" class = "filter-btn" id = "specials">Nước uống</button>
+                </div>
+
+                <div class = "filter-items">
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "images/bunchachan.jpg" alt = "Item image" style="height: 230px;">
+                        </div>
+                        <div class = "item-info">
+                            <p>Bún Chả Chan</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Bún Chả Chan phát âm là "boon cha chan" là món ăn truyền thống của Việt Nam, gồm bún, chả, nổi tiếng với cách nướng chả trên than hoa và nước sốt chua ngọt. Đây là một trong những món ăn đặc trưng và được rất nhiều người yêu thích ở Việt Nam.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "images/bundau.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Bún Đậu</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Bún đậu mắm tôm phát âm là "boon dao mam tohm" là một món ăn phổ biến của Việt Nam, với bún (tên gọi khác của bánh phở) và đậu (đậu phụng và đậu hũ) được ướp mắm tôm và ăn kèm với rau xanh, chả cá và nước mắm chua ngọt.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "images/matcha.jpg" alt = "Item image">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Trà Matcha</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Trà matcha phát âm là " mat cha" là một loại trà xanh nổi tiếng của Nhật Bản, được làm từ lá trà xanh bằng cách xay nhuyễn thành dạng bột mịn. Trà này có màu xanh đặc trưng và vị đắng nhẹ, được sử dụng trong nhiều món ăn và thức uống khác nhau.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "images/vitquay.jpg" alt = "Item image" style="width: 350px;">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Vịt Quay</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Vịt quay phát âm "deet kwai" là một món ăn đặc sản của Thái Nguyên, gồm vịt được ướp gia vị và nướng trên lò quay. Món này có vị đậm đà, thịt thơm ngon và da giòn tan kết hợp với nước chấm đặc biệt và rau sống.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "images/banhcuon.jpeg" alt = "Item image">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Bánh cuốn</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Bánh cuốn phát âm "bun kwoon" là một món ăn truyền thống nổi tiếng của Việt Nam, với bánh được làm từ bột gạo và cuốn nhân thịt, mộc nhĩ thịt băm hay tôm trong đó. Món này thường được ăn kèm với nước mắm chua ngọt và rau xanh tươi mát.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Bình</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all specials">
+                        <div class = "item-img">
+                            <img src = "images/nemchuaran.jpg" alt = "Item image" style="height: 235px;">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Trà</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Cà phê muối phát âm "ka fe muoy" là một loại cà phê đặc biệt của Việt Nam, với cà phê pha chế cùng với muối và đường để tạo ra một hương vị đặc trưng và hấp dẫn rất đáng để trải nghiệm và thưởng thức hương vị ấy.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all new">
+                        <div class = "item-img">
+                            <img src = "images/photron.jpg" alt = "Item image" style="height: 235px;">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Phở Trộn</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Phở trộn phát âm "foh trohn" là một biến thể khác của món phở nổi tiếng của Việt Nam, với cách chế biến khác nhau. Thay vì nước dùng, phở trộn có thể được trộn với nước sốt, gia vị và thịt để tạo nên một hương vị đặc biệt.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all best-sellers">
+                        <div class = "item-img">
+                            <img src = "images/nemchuaran.jpg" alt = "Item image" style="width: 315px;">
+                            
+                        </div>
+                        <div class = "item-info">
+                            <p>Nem Chua Ran</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Nem chua rán phát âm "nem chwah ran" là một món ăn đặc trưng của Việt Nam, gồm nem chua (nem cuốn chua ngọt) được rán giòn và ăn kèm với nước chấm. Món này có vị chua ngọt đặc trưng và được rất nhiều người yêu thích.</p>
+                            <div class="feed-common--region-info" style="margin-top: 10px;">
+                                <img class="flag" loading="lazy" src="images/6b5bf1ce7c584080ac72a310fe52a267.png" style="width: 16px;">
+                                <span><a class="js-ga-heading" data-tag="dish_of_the_day" href="hanoi" style="margin-left: 10px; font-size: 15px;">Thái Nguyên</a></span>
+                            </div>
+                            <div class="nguyenlieu" style="margin-top: 10px;">
+                                <a href="#">
+                                <img class="flag" loading="lazy" src="images/banhmi.png">
+                                <img class="flag" loading="lazy" src="images/conbo.png">
+                                <img class="flag" loading="lazy" src="images/ot.png">
+                                <img class="flag" loading="lazy" src="images/hanh.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Địa điểm</h3>
+                <a href="#">Hà Nội</a>
+                <a href="#">Thành phố Hồ Chí Minh</a>
+                <a href="#">Hội An</a>
+                <a href="#">Đà Nẵng</a>
+                <a href="#">Sóc Trăng</a>
+            </div>
+    
+            <div class="box">
+                <h3>Đường dẫn nhanh</h3>
+                <a href="#">Trang chủ</a>
+                <a href="#">Các nhà hàng nổi tiếng</a>
+                <a href="#">Khám phá bản đồ</a>
+                <a href="#">Món ăn phổ biến</a>
+                <a href="#">Đánh giá</a>
+                <a href="#">Bảng thông tin</a>
+            </div>
+    
+            <div class="box">
+                <h3>Thông tin liên lạc</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">phenikaa@gmail.com</a>
+                <a href="#">foodmap@gmail.com</a>
+                <a href="#">Hà Đông, Hà Nội</a>
+            </div>
+    
+            <div class="box">
+                <h3>Theo dõi</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+                
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <script src = "/js/eat-local.js"></script>
+</body>
+</html>

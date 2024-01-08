@@ -42,12 +42,17 @@ document.querySelector('#close').onclick = () => {
 };
 
 document.querySelector('#search-form').onsubmit = (event) => {
-  event.preventDefault(); // Prevent the default form submission
+  event.preventDefault(); 
   const searchInputValue = document.querySelector('#search-input').value;
-  // Redirect to eat.html with the search input value
-  window.location.href = `eat-local.html?search=${encodeURIComponent(searchInputValue)}`;
+  
+  let destinationPage = 'eat-local.html'; 
+  
+  if (searchInputValue.toLowerCase().includes('thái nguyên')) {
+    destinationPage = 'eat-local-thai-nguyen.html';
+  }
+  
+  window.location.href = `${destinationPage}?search=${encodeURIComponent(searchInputValue)}`;
 };
-
 
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
